@@ -36,8 +36,8 @@ import { NgHighlightModule } from 'ngx-text-highlight';
 In your template
 
 ```html
-<ng-ng-highlight [content]="actualText" [searchTerm]="searchText" [customClass]="'blue-highlight'" [caseSensitive]="true">
-</ng-ng-highlight>
+<ng-highlight [content]="actualText" [searchTerm]="searchText" [customClass]="'blue-highlight'" [caseSensitive]="true">
+</ng-highlight>
 ```
 
 - **[content]**: string.
