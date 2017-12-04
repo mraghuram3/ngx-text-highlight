@@ -33,7 +33,6 @@ export class NgHighlightComponent implements OnInit {
 
     @Input('customClass')
     set customClass(customClass: string){
-      console.log(customClass);
       this._customClass = customClass;
     }
     get customClass(): string { return this._customClass; }
@@ -53,7 +52,6 @@ export class NgHighlightComponent implements OnInit {
           this.splitFlag = '';
           this.matchFlag = 'g';
       }
-      console.log(this._customClass);
       this.patterForMatch = new RegExp(this._searchTerm, this.matchFlag);
       this.patternForSplit = new RegExp(this._searchTerm, this.splitFlag);
       this.matchedContent = this._content.match(this.patterForMatch);

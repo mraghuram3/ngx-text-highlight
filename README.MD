@@ -6,7 +6,7 @@ Angular Text highlight component
 
 Angular component to highlight the text.
 
-Live Demo : https://mraghuram3.github.io/ngx-text-highlight
+Live Demo : https://mraghuram3.github.io/#/ngx-text-highlight
 
 
 ## Installation
