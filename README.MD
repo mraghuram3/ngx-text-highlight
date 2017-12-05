@@ -55,7 +55,7 @@ In your template
   ** Include the css provided in your index.html or create a css class as shown below as per ypur requirement **
 
 ```css
-.ngx-highlight{
+.ngx-text-highlight{
     background:yellow;
 }
 
