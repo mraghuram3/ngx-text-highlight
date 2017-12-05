@@ -1,18 +1,17 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgHighlightComponent } from './ng-highlight.component';
-
-export * from './ng-highlight.component';
+import { HighlightDirective } from './ng-highlight.directive';
+export * from './ng-highlight.directive';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    NgHighlightComponent
+    HighlightDirective
   ],
   exports: [
-    NgHighlightComponent
+    HighlightDirective
   ]
 })
 export class NgHighlightModule {

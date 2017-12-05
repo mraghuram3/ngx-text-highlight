@@ -1,10 +1,10 @@
 # ngx-text-highlight
 
 ## Installation
-Angular Text highlight component
+Angular Text highlight Directive
 ====
 
-Angular component to highlight the text.
+Angular Directive to highlight the text.
 
 Live Demo : https://mraghuram3.github.io/#/ngx-text-highlight
 
@@ -36,8 +36,8 @@ import { NgHighlightModule } from 'ngx-text-highlight';
 In your template
 
 ```html
-<ng-highlight [content]="actualText" [searchTerm]="searchText" [customClass]="'blue-highlight'" [caseSensitive]="true">
-</ng-highlight>
+<div ngxTextHighlight [content]="actualText" [searchTerm]="searchText"  [caseSensitive]="true">
+</div>
 ```
 
 - **[content]**: string.
@@ -48,14 +48,22 @@ In your template
 
   The string which needs to be highlighted.
 
-- **[customClass]**: string.
-
-  To add custom class to highlighted text, Optional.
-
 - **[caseSensitive]**: boolean.
 
   Toggle between case sensitive and case insensitive search,  default `false`.
 
+  ** Include the css provided in your index.html or create a css class as shown below as per ypur requirement **
+
+```css
+.ngx-highlight{
+    background:yellow;
+}
+
+````
+Note
+===
+To increase performance, the ngx-text-highlight is updated to a directive instead of
+component.
 ## License
 
 MIT © [Raghu Ram M](mailto:mraghuram3@gmail.com)
