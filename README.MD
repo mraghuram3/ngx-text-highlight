@@ -52,7 +52,7 @@ In your template
 
   Toggle between case sensitive and case insensitive search,  default `false`.
 
-  ** Include the css provided in your index.html or create a css class as shown below as per ypur requirement **
+  ** Include the css provided in your index.html or create a css class as shown below as per your requirement **
 
 ```css
 .ngx-text-highlight{
