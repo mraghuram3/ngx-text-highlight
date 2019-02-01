@@ -60,10 +60,6 @@ In your template
 }
 
 ````
-Note
-===
-To increase performance, the ngx-text-highlight is updated to a directive instead of
-component.
 ## License
 
 MIT © [Raghu Ram M](mailto:mraghuram3@gmail.com)
